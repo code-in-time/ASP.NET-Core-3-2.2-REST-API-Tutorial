@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Tweetbook.Contracts.V1;
 using Tweetbook.Domain;
 
 namespace Tweetbook.Controllers
@@ -23,7 +24,7 @@ namespace Tweetbook.Controllers
             }
         }
 
-        [HttpGet("api/v1/posts")]
+        [HttpGet(ApiRoutes.Posts.GetAll)]
         public IActionResult GetAll()
         {
             return Ok(_posts);
