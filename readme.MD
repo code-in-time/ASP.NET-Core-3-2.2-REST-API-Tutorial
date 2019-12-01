@@ -1,5 +1,7 @@
 # ASP.NET Core 2.2 & 3 REST API Tutorial
 
+This is a turorial that I am curently busy with.
+
 ## Tutorial
 - https://www.youtube.com/playlist?list=PLUOequmGnXxOgmSDWU7Tl6iQTsOtyjtwU
 
