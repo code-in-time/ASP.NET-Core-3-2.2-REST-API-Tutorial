@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Tweetbook.Data;
+using Tweetbook.Services;
 
 namespace Tweetbook.Installers
 {
@@ -19,6 +20,8 @@ namespace Tweetbook.Installers
             services
                 .AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<DataContext>();
+
+            services.AddSingleton<IPostService, PostService>();
         }
     }
 }
