@@ -16,6 +16,8 @@ This is a turorial that I am curently busy with completing so that I can learn c
 - tutorial 3
 - tutorial 4
 - tutorial 5
+- tutorial 6
+- tutorial 7
 
 #### NEXT
-- https://www.youtube.com/watch?v=8fXgWnzfRm0&list=PLUOequmGnXxOgmSDWU7Tl6iQTsOtyjtwU&index=6
+- https://www.youtube.com/watch?v=qEmxoCOH4Uw&list=PLUOequmGnXxOgmSDWU7Tl6iQTsOtyjtwU&index=8
