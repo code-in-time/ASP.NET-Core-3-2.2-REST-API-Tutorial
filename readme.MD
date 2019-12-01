@@ -1,6 +1,6 @@
 # ASP.NET Core 2.2 & 3 REST API Tutorial
 
-This is a turorial that I am curently busy with.
+This is a turorial that I am curently busy with completeing so that I can learn c#.
 
 ## Tutorial
 - https://www.youtube.com/playlist?list=PLUOequmGnXxOgmSDWU7Tl6iQTsOtyjtwU
