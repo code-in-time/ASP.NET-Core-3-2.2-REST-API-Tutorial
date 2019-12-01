@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Tweetbook.Controllers.V1.Requests
+namespace Tweetbook.Services
 {
-    public class CreatePostRequest
+    public class PostService
     {
-        public Guid Id { get; set; }
     }
 }

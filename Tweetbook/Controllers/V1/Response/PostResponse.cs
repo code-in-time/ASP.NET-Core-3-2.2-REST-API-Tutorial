@@ -7,6 +7,6 @@ namespace Tweetbook.Controllers.V1.Response
 {
     public class PostResponse
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; }
     }
 }
