@@ -1,0 +1,12 @@
+## generate migration script
+https://www.youtube.com/watch?v=qEmxoCOH4Uw&list=PLUOequmGnXxOgmSDWU7Tl6iQTsOtyjtwU&index=8
+
+- in Package manager console
+
+### Add the migration scripts
+> dotnet ef migrations add
+- or use this
+> Add-Migration AddedPosts
+
+### run the migration scripts
+> Update-Database
