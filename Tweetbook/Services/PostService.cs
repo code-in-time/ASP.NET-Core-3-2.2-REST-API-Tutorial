@@ -27,6 +27,10 @@ namespace Tweetbook.Services
         public async Task<bool> DeletePostAsync(Guid postId)
         {
             var post = await GetPostByIdAsync(postId);
+            if (post == null)
+            {
+                return false;
+            }
             _dataContext.Posts.Remove(post);
             var deleted = await _dataContext.SaveChangesAsync();
             return deleted > 0;
@@ -44,7 +48,13 @@ namespace Tweetbook.Services
 
         public async Task<bool> updatePost(Post postToupdate)
         {
-            _dataContext.Posts.Update(postToupdate);
+            var post = _dataContext.Posts.Update(postToupdate);
+
+            if (post == null)
+            {
+                return false;
+            }
+
             var updated = await _dataContext.SaveChangesAsync();
             return updated > 0;
 
