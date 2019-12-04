@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <UserSecretsId>aspnet-Tweetbook-065F8355-8387-40D2-B573-3F0A32C767D0</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
 
 
