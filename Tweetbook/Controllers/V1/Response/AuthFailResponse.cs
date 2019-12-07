@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Tweetbook.Controllers.V1.Response
 {
-    public class AuthFailResponse
+    public class AuthFailedResponse
     {
         public IEnumerable<string> Errors { get; set; }
     }
